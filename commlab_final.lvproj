@@ -19,6 +19,7 @@
 			<Item Name="lab2_sim_modem.vi" Type="VI" URL="../lab2_sim_modem.vi"/>
 			<Item Name="lab2_usrp_modem_system.vi" Type="VI" URL="../lab2_usrp_modem_system.vi"/>
 			<Item Name="lab2_usrp_packet_transceiver.vi" Type="VI" URL="../lab2_usrp_packet_transceiver.vi"/>
+			<Item Name="lab2_usrp_packet_transceiver2.vi" Type="VI" URL="../lab2_usrp_packet_transceiver2.vi"/>
 		</Item>
 		<Item Name="subVIs" Type="Folder">
 			<Item Name="ceEq(TODO)" Type="Folder">
@@ -38,6 +39,7 @@
 				<Item Name="tx_pduGen.vi" Type="VI" URL="../tx_pduGen.vi"/>
 			</Item>
 		</Item>
+		<Item Name="Global 1.vi" Type="VI" URL="../../Comm_Lab/lab4/Global 1.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="instr.lib" Type="Folder">
 				<Item Name="niUSRP Abort.vi" Type="VI" URL="/&lt;instrlib&gt;/niUSRP/niUSRP Abort.vi"/>
