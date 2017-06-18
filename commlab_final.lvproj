@@ -16,6 +16,7 @@
 		</Item>
 		<Item Name="exercise" Type="Folder">
 			<Item Name="energy_detection.vi" Type="VI" URL="../../energy_detection.vi"/>
+			<Item Name="energy_detection2.vi" Type="VI" URL="../energy_detection2.vi"/>
 			<Item Name="lab2_sim_modem.vi" Type="VI" URL="../lab2_sim_modem.vi"/>
 			<Item Name="lab2_usrp_modem_system.vi" Type="VI" URL="../lab2_usrp_modem_system.vi"/>
 			<Item Name="lab2_usrp_packet_transceiver.vi" Type="VI" URL="../lab2_usrp_packet_transceiver.vi"/>
@@ -40,6 +41,7 @@
 				<Item Name="tx_pduGen.vi" Type="VI" URL="../tx_pduGen.vi"/>
 			</Item>
 		</Item>
+		<Item Name="lab2_usrp_packet_transceiver3.vi" Type="VI" URL="../lab2_usrp_packet_transceiver3.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="instr.lib" Type="Folder">
 				<Item Name="niUSRP Abort.vi" Type="VI" URL="/&lt;instrlib&gt;/niUSRP/niUSRP Abort.vi"/>
@@ -68,6 +70,7 @@
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Check for Equality.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/WDTOps.llb/Check for Equality.vi"/>
 				<Item Name="DU64_U32SubtractWithBorrow.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/TSOps.llb/DU64_U32SubtractWithBorrow.vi"/>
+				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
 				<Item Name="I128 Timestamp.ctl" Type="VI" URL="/&lt;vilib&gt;/Waveform/TSOps.llb/I128 Timestamp.ctl"/>
 				<Item Name="NI_AAL_SigProc.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/NI_AAL_SigProc.lvlib"/>
 				<Item Name="NI_AALBase.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/NI_AALBase.lvlib"/>
@@ -85,6 +88,7 @@
 			<Item Name="niusrp.dll" Type="Document" URL="niusrp.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
+			<Item Name="var_stop.vi" Type="VI" URL="../Comm_Lab_Final/var_stop.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
