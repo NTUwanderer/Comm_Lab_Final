@@ -20,6 +20,7 @@
 			<Item Name="lab2_usrp_modem_system.vi" Type="VI" URL="../lab2_usrp_modem_system.vi"/>
 			<Item Name="lab2_usrp_packet_transceiver.vi" Type="VI" URL="../lab2_usrp_packet_transceiver.vi"/>
 			<Item Name="lab2_usrp_packet_transceiver2.vi" Type="VI" URL="../lab2_usrp_packet_transceiver2.vi"/>
+			<Item Name="secondary_user.vi" Type="VI" URL="../secondary_user.vi"/>
 		</Item>
 		<Item Name="subVIs" Type="Folder">
 			<Item Name="ceEq(TODO)" Type="Folder">
